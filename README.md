@@ -1,8 +1,6 @@
-# Errespec
+# ErreSpec
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/errespec`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+    "Shit happens.." ~ Mr. Plof
 
 ## Installation
 
@@ -20,9 +18,19 @@ Or install it yourself as:
 
     $ gem install errespec
 
-## Usage
+## Using it in a Rails app
 
-TODO: Write usage instructions here
+*This instructions were brutally stolen from [Ilija Eftimov's cool blog](https://ieftimov.com/how-to-write-rspec-formatters-from-scratch))*
+
+> Lets integrate our new formatter in a Rails application.In the RSpec.configure block in the spec_helper, you need to register the formatter to RSpec. This is done by:
+
+    config.formatter = ErreSpec::Formatters::Plof
+
+## Testing
+
+Errespec is the default formatter for errespec project itself. To see it in action:
+
+    $ bundle exec rspec spec/errespec_spec.rb
 
 ## Development
 
