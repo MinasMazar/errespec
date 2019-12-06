@@ -1,6 +1,4 @@
 RSpec.describe ErreSpec do
-  ErreSpec.demo_mode!
-
   subject { %i[plof nil].sample }
 
   it "has a version number" do

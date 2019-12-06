@@ -1,6 +1,9 @@
+
 # ErreSpec
 
-    "Shit happens.." ~ Mr. Plof
+![Image of ErreSpec in action: bundle exec rspec](./errespec_specs.png)
+
+> Shit happens.. ~ Mr. Plof
 
 ## Installation
 
